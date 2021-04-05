@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333;
+    color: white;
+}
+
+#score, #speed {
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    padding: 0 25rem;
+}
+
+.info {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: monospace, sans-serif;
+}
+
+canvas {
+    display: flex;
+    margin: 0 auto;
+}
+
+
